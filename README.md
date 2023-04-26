@@ -1,2 +1,3 @@
 # hyperFuzz
-Locality sensitive hashing.
+
+This is a typescript package for locality sensitive hashing.  
