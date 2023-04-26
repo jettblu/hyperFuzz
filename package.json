@@ -1,0 +1,27 @@
+{
+  "name": "hyperfuzz",
+  "version": "0.0.0",
+  "description": "Locality sensitive hashing.",
+  "repository": "https://github.com/jettblu/hyperFuzz",
+  "author": "jettblu <jettblu.fabrications@gmail.com>",
+  "keywords": [
+    "fuzzing",
+    "lhs"
+  ],
+  "files": [
+    "dist"
+  ],
+  "type": "commonjs",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vitest": "^0.21.1"
+  }
+}
